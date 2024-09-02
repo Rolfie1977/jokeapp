@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './JokeApp.module.scss'; // Import SCSS module
 
 const JokeApp = () => {
-  const [joke, setJoke] = useState(null); // Tilstand til at gemme jokeren
+  const [joke, setJoke] = useState(null); // Tilstand til at gemme joke
   const [loading, setLoading] = useState(true); // Tilstand til at gemme loading status
 
   // URL til API'et
